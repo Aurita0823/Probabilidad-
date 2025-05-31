@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="5.6.4">
+    <config>
+        <recursos>Recursos_Nivel_2</recursos>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <titulo>Espacio Muestral y Tipos de Eventos</titulo>
+        <subtitulo>Evaluación </subtitulo>
+        <autor>Geooriprosi</autor>
+        <imaxefondo posx="-88" posy="-56" trans="100">mapaaa.jpg</imaxefondo>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >CORRECTO</correcto>
+        <incorrecto son="" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>1</tipo>
+            <nonpasar atras="1" >0</nonpasar>
+              <texto>1. ¿Qué representa el espacio muestral (S) en un experimento aleatorio?</texto>
+              <resp texto="" valor="0"> El resultado más probable.</resp>
+              <resp texto="" valor="1">El conjunto de todos los resultados posibles. </resp>
+              <resp texto="" valor="0">Un evento que no puede ocurrir.</resp>
+              <resp texto="" valor="0">Solo un resultado específico.</resp>
+        </paxina>
+        <paxina id="2" >
+              <tipo>1</tipo>
+              <texto>2. Si lanzas un dado, ¿cuál de las siguientes opciones representa su espacio muestral?</texto>
+              <resp texto="" valor="0">S = {par, impar}</resp>
+              <resp texto="" valor="0"> S = {1, 2, 3}</resp>
+              <resp texto="" valor="1"> S = {1, 2, 3, 4, 5, 6}</resp>
+              <resp texto="" valor="0">S = {cara, sello}</resp>
+        </paxina>
+        <paxina id="3" >
+              <tipo>1</tipo>
+              <texto>3. Un evento que consiste en un solo resultado del espacio muestral se denomina:</texto>
+              <resp texto="" valor="0">Evento compuesto</resp>
+              <resp texto="" valor="0">Evento mutuamente excluyente</resp>
+              <resp texto="" valor="1">Evento simple </resp>
+              <resp texto="" valor="0">Evento dependiente</resp>
+        </paxina>
+        <paxina id="4" >
+              <tipo>1</tipo>
+              <texto>4.Si en un solo lanzamiento de un dado, el Evento A es obtener un 2 y el Evento B es obtener un 5, ¿qué tipo de eventos son A y B?</texto>
+              <resp texto="" valor="0">No mutuamente excluyentes</resp>
+              <resp texto="" valor="0">Independientes</resp>
+              <resp texto="" valor="1">Mutuamente excluyentes</resp>
+              <resp texto="" valor="0">Dependientes</resp>
+        </paxina>
+        <paxina id="5" >
+              <tipo>1</tipo>
+              <texto>5. Considerando una baraja de 52 cartas, si el Evento A es sacar una carta roja y el Evento B es sacar una figura (J, Q, K), ¿qué tipo de eventos son A y B?</texto>
+              <resp texto="" valor="0"> Mutuamente excluyentes</resp>
+              <resp texto="" valor="0">Independientes</resp>
+              <resp texto="" valor="0">Dependientes
+</resp>
+              <resp texto="" valor="1">No mutuamente excluyentes</resp>
+        </paxina>
+        <paxina id="6" >
+              <tipo>1</tipo>
+              <texto>6.¿Cuándo se considera que dos eventos son dependientes?</texto>
+              <resp texto="" valor="0"> Cuando no pueden ocurrir al mismo tiempo.</resp>
+              <resp texto="" valor="0"> Cuando la ocurrencia de uno no afecta al otro.</resp>
+              <resp texto="" valor="1">Cuando el resultado de uno afecta al resultado del otro. </resp>
+              <resp texto="" valor="0">Cuando tienen al menos un resultado en común.</resp>
+        </paxina>
+        <paxina id="7" >
+              <tipo>1</tipo>
+              <texto>7. En una máquina expendedora con S = {agua, jugo, soda}, ¿qué tipo de evento es "elegir agua o jugo"?</texto>
+              <resp texto="" valor="0"> Evento simple</resp>
+              <resp texto="" valor="0">Evento mutuamente excluyente</resp>
+              <resp texto="" valor="1">Evento compuesto</resp>
+              <resp texto="" valor="0">Evento independiente</resp>
+        </paxina>
+    </libro>
+</lim>
